@@ -1,0 +1,15 @@
+.
+├── bochsrc.txt
+├── iso
+│   └── boot 
+│       ├── grub
+│       │   └── grub.cfg
+│       └── kernel.elf
+├── link.ld
+├── loader.o
+├── loader.s
+├── log.txt
+├── someOS.iso
+└── tree.txt
+
+4 directories, 9 files

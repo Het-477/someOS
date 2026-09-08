@@ -1,0 +1,21 @@
+megs:               32
+display_library:    sdl2
+
+vgaromimage:        file=/usr/share/bochs/VGABIOS-lgpl-latest.bin
+
+ata0:               enabled=1, ioaddr1=0x1f0, irq=14
+ata0-master:        type=cdrom, path=someOS.iso, status=inserted
+
+boot:               cdrom
+
+log:                bochslog.txt
+clock:              sync=realtime, time=local
+
+cpu:                count=1, ips=1000000, reset_on_triple_fault=0
+
+magic_break:        enabled=0
+
+panic:              action=ask
+error:              action=report
+info:               action=report
+debug:              action=ignore

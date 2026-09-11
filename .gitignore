@@ -1,3 +1,4 @@
-someOS.iso
+*.iso
 log.txt
 bochslog.txt
+*.o
